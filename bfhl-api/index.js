@@ -158,7 +158,7 @@ if (key === "AI") {
   if (typeof value !== "string" || value.trim().length === 0) {
     return res.status(400).json({
       is_success: false,
-      official_email: "arnav0198.be23@chitkara.edu.in",,
+      official_email: "arnav0198.be23@chitkara.edu.in",
     });
   }
 
